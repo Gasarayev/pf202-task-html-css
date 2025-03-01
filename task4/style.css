@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-right: 1px solid white;
+}
+
+th {
+  background-color: green;
+  color: aliceblue;
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+.flag {
+  width: 25px;
+  height: 15px;
+}
